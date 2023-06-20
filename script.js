@@ -46,7 +46,7 @@ distribution(variable);
 function distribution(variable) {
   let rest = variable % 2;
 
-  while (rest !== 0 || variable < 4 || varible > 14) {
+  while (rest !== 0 || variable < 4 || variable > 14) {
     alert("Digite um número par de 4 a 14");
     variable = prompt(
       "Qual a quantidade de cartas que deseja?(apenas números pares de 4 a 14)"
